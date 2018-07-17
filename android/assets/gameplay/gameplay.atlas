@@ -1,0 +1,264 @@
+
+gameplay.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+blue-jetpack
+  rotate: false
+  xy: 2, 12
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-platform
+  rotate: false
+  xy: 1186, 1756
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-player
+  rotate: false
+  xy: 2, 46
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+blue-to-red1
+  rotate: false
+  xy: 2, 46
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+blue-player-16
+  rotate: false
+  xy: 1152, 1640
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+blue-player-8
+  rotate: false
+  xy: 2, 2
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+blue-spring
+  rotate: false
+  xy: 1838, 1802
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+blue-to-red2
+  rotate: false
+  xy: 1084, 1724
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+blue-to-red3
+  rotate: false
+  xy: 1838, 1968
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+blue-to-red4
+  rotate: false
+  xy: 36, 46
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+blue-to-red5
+  rotate: false
+  xy: 1084, 1658
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+blue-to-red6
+  rotate: false
+  xy: 1118, 1724
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+game-logo
+  rotate: false
+  xy: 1084, 1790
+  size: 752, 242
+  orig: 752, 242
+  offset: 0, 0
+  index: -1
+main-background
+  rotate: false
+  xy: 2, 112
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: -1
+particle
+  rotate: false
+  xy: 36, 43
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+red-jetpack
+  rotate: false
+  xy: 1872, 1868
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+red-platform
+  rotate: false
+  xy: 1906, 1934
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+red-player
+  rotate: false
+  xy: 1838, 1902
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+red-to-yellow1
+  rotate: false
+  xy: 1838, 1902
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+red-spring
+  rotate: false
+  xy: 1940, 2000
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+red-to-yellow2
+  rotate: false
+  xy: 1872, 1968
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+red-to-yellow3
+  rotate: false
+  xy: 70, 46
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+red-to-yellow4
+  rotate: false
+  xy: 1084, 1592
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+red-to-yellow5
+  rotate: false
+  xy: 1118, 1658
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+red-to-yellow6
+  rotate: false
+  xy: 1152, 1724
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+yellow-jetpack
+  rotate: false
+  xy: 138, 78
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+yellow-platform
+  rotate: false
+  xy: 1084, 1492
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+yellow-player
+  rotate: false
+  xy: 1838, 1836
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+yellow-spring
+  rotate: false
+  xy: 1118, 1558
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+yellow-to-blue1
+  rotate: false
+  xy: 1872, 1902
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+yellow-to-blue2
+  rotate: false
+  xy: 1906, 1968
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+yellow-to-blue3
+  rotate: false
+  xy: 104, 46
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+yellow-to-blue4
+  rotate: false
+  xy: 1084, 1526
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+yellow-to-blue5
+  rotate: false
+  xy: 1118, 1592
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+yellow-to-blue6
+  rotate: false
+  xy: 1152, 1658
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+
+gameplay2.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+main-background2
+  rotate: false
+  xy: 2, 2
+  size: 1080, 1920
+  orig: 1080, 1920
+  offset: 0, 0
+  index: -1
