@@ -16,7 +16,7 @@ public class GameplayScreen extends ScreenAdapter implements InputProcessor  {
 
     public void show() {
         controller = new GameController(game);
-        renderer = new GameRenderer(controller);
+        renderer = new GameRenderer(game, controller);
 
         InputMultiplexer multiplexer = new InputMultiplexer();
         multiplexer.addProcessor(this);
@@ -32,10 +32,6 @@ public class GameplayScreen extends ScreenAdapter implements InputProcessor  {
 
     public void resize(int width, int height) {
         renderer.resize(width, height);
-    }
-
-    public void hide() {
-        dispose();
     }
 
     public void dispose() {

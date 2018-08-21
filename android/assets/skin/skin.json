@@ -27,6 +27,10 @@
     highscores: {
       up: highscores,
       down: highscores-down
+    },
+    back: {
+      up: back,
+      down: back-down
     }
   }
 

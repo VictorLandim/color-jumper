@@ -24,7 +24,7 @@ public class GameConfig {
     public static final float HUD_HEIGHT = 360f * 16f / 9f;
 
     public static final float PLAYER_WIDTH = 0.8f;
-    public static final float PLAYER_HEIGHT = PLAYER_WIDTH * 2f;
+    public static final float PLAYER_HEIGHT = PLAYER_WIDTH;
     public static final float PLAYER_MOVESPEED = 8f;
     public static final float PLAYER_JUMP_SPEED = 14f;
     public static final float PLAYER_SPRING_JUMP_SPEED = 20f;
@@ -37,7 +37,7 @@ public class GameConfig {
 
     public static final int PLATFORMS_PER_SCREEN = 10;
     public static final float PLATFORM_HEIGHT = 0.6f;
-    public static final int PLATFORM_EDGE = 2;
+    public static final int PLATFORM_EDGE = 1;
 
     public static final float SPRING_WIDTH = 0.7f;
     public static final float SPRING_HEIGHT = 0.6f;

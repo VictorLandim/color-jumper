@@ -65,7 +65,7 @@ public class MenuScreen extends MenuScreenBase {
         float buttonSize = GameConfig.HUD_WIDTH * 0.2f;
         float padding = 5f;
 
-        buttonTable.defaults().pad(5f).center();
+        buttonTable.defaults().pad(padding).center();
 
         buttonTable.add(playButton)
                 .width(buttonSize * 2f + padding * 2f)
@@ -84,8 +84,6 @@ public class MenuScreen extends MenuScreenBase {
                 .height(buttonSize)
                 .colspan(1);
 
-        buttonTable.setVisible(false);
-
         Table root = new Table();
         root.setBackground(
                 new TextureRegionDrawable(atlas.findRegion(RegionNames.MAIN_BACKGROUND))
@@ -98,15 +96,19 @@ public class MenuScreen extends MenuScreenBase {
         root.setFillParent(true);
         root.pack();
 
-        float x = buttonTable.getX();
-        float y = buttonTable.getY();
-        buttonTable.setY(-GameConfig.HUD_HEIGHT);
-        buttonTable.setVisible(true);
-        buttonTable.addAction(Actions.moveTo(x, y, 0.35f, Interpolation.sineIn));
+        float yOffset = 300f;
+        buttonTable.addAction(Actions.sequence(
+                Actions.hide(),
+                Actions.moveBy(0, -yOffset),
+                Actions.show(),
+                Actions.moveBy(0, yOffset, 0.35f, Interpolation.sineIn)
+        ));
 
-        logoImage.setScale(4f);
-        logoImage.addAction(Actions.scaleTo(1f, 1f, 0.35f));
-
+        float logoScale = 4f;
+        logoImage.addAction(Actions.sequence(
+                Actions.scaleTo(logoScale,logoScale),
+                Actions.scaleTo(1f, 1f, 0.35f)
+        ));
         return root;
     }
 
@@ -132,21 +134,14 @@ public class MenuScreen extends MenuScreenBase {
         return logoImage;
     }
 
-    @Override
-    public void render(float delta) {
-        super.render(delta);
-    }
-
     private void play() {
         game.setScreen(new GameplayScreen(game));
     }
 
     private void settings() {
-        quit();
     }
 
     private void highscores() {
-        quit();
     }
 
     private void quit() {

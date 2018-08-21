@@ -30,6 +30,7 @@ import com.lan.jumper.common.GameState;
 import com.lan.jumper.config.GameConfig;
 import com.lan.jumper.debug.DebugCameraController;
 import com.lan.jumper.entity.*;
+import com.lan.jumper.game.ColorJumperGame;
 import com.lan.jumper.ui.GameHud;
 import com.lan.jumper.util.GdxUtils;
 import com.lan.jumper.util.ViewportUtils;
@@ -38,6 +39,7 @@ import javax.swing.plaf.synth.Region;
 
 public class GameRenderer implements Disposable {
 
+    private ColorJumperGame game;
     private GameController controller;
 
     private DebugCameraController debugCameraController;
@@ -84,7 +86,8 @@ public class GameRenderer implements Disposable {
 
     private ParticleEffect explosion;
 
-    public GameRenderer(GameController controller) {
+    public GameRenderer(ColorJumperGame game, GameController controller) {
+        this.game = game;
         this.controller = controller;
 
         camera = new OrthographicCamera();
@@ -118,6 +121,11 @@ public class GameRenderer implements Disposable {
         handleCamera(delta);
         renderGameplay(delta);
         renderUi(delta);
+
+        if(controller.shouldGoToMenu) {
+            controller.shouldGoToMenu = false;
+            game.setScreen(new MenuScreen(game));
+        }
     }
 
     private void renderGameplay(float delta) {

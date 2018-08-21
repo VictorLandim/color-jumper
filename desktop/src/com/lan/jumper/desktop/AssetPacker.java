@@ -18,7 +18,7 @@ public class AssetPacker {
 
         TexturePacker.process(
                 settings,
-                INPUT_PATH + "/gameplay",
+                INPUT_PATH + "/gameplay-16bit",
                 OUTPUT_PATH + "/gameplay",
                 "gameplay"
         );

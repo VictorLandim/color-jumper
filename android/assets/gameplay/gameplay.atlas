@@ -6,245 +6,231 @@ filter: Nearest,Nearest
 repeat: none
 blue-jetpack
   rotate: false
-  xy: 2, 12
+  xy: 2, 20
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 blue-platform
   rotate: false
-  xy: 1186, 1756
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-blue-player
-  rotate: false
-  xy: 2, 46
-  size: 32, 64
-  orig: 32, 64
-  offset: 0, 0
-  index: -1
-blue-to-red1
-  rotate: false
-  xy: 2, 46
-  size: 32, 64
-  orig: 32, 64
-  offset: 0, 0
-  index: -1
-blue-player-16
-  rotate: false
-  xy: 1152, 1640
+  xy: 1940, 2024
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
-blue-player-8
+blue-player
   rotate: false
-  xy: 2, 2
-  size: 8, 8
-  orig: 8, 8
+  xy: 138, 102
+  size: 16, 16
+  orig: 16, 16
   offset: 0, 0
   index: -1
 blue-spring
   rotate: false
-  xy: 1838, 1802
+  xy: 1152, 1698
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+blue-to-red1
+  rotate: false
+  xy: 2, 54
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
 blue-to-red2
   rotate: false
-  xy: 1084, 1724
+  xy: 1084, 1732
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 blue-to-red3
   rotate: false
-  xy: 1838, 1968
+  xy: 1838, 1976
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 blue-to-red4
   rotate: false
-  xy: 36, 46
+  xy: 36, 54
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 blue-to-red5
   rotate: false
-  xy: 1084, 1658
+  xy: 1084, 1666
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 blue-to-red6
   rotate: false
-  xy: 1118, 1724
+  xy: 1118, 1732
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 game-logo
   rotate: false
-  xy: 1084, 1790
+  xy: 1084, 1798
   size: 752, 242
   orig: 752, 242
   offset: 0, 0
   index: -1
 main-background
   rotate: false
-  xy: 2, 112
+  xy: 2, 120
   size: 1080, 1920
   orig: 1080, 1920
   offset: 0, 0
   index: -1
 particle
   rotate: false
-  xy: 36, 43
+  xy: 1152, 1695
   size: 1, 1
   orig: 1, 1
   offset: 0, 0
   index: -1
 red-jetpack
   rotate: false
-  xy: 1872, 1868
+  xy: 1186, 1764
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 red-platform
   rotate: false
-  xy: 1906, 1934
-  size: 32, 32
-  orig: 32, 32
+  xy: 1084, 1516
+  size: 16, 16
+  orig: 16, 16
   offset: 0, 0
   index: -1
 red-player
   rotate: false
-  xy: 1838, 1902
-  size: 32, 64
-  orig: 32, 64
-  offset: 0, 0
-  index: -1
-red-to-yellow1
-  rotate: false
-  xy: 1838, 1902
-  size: 32, 64
-  orig: 32, 64
+  xy: 1118, 1582
+  size: 16, 16
+  orig: 16, 16
   offset: 0, 0
   index: -1
 red-spring
   rotate: false
-  xy: 1940, 2000
+  xy: 1838, 1810
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
+red-to-yellow1
+  rotate: false
+  xy: 1838, 1910
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
 red-to-yellow2
   rotate: false
-  xy: 1872, 1968
+  xy: 1872, 1976
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 red-to-yellow3
   rotate: false
-  xy: 70, 46
+  xy: 70, 54
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 red-to-yellow4
   rotate: false
-  xy: 1084, 1592
+  xy: 1084, 1600
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 red-to-yellow5
   rotate: false
-  xy: 1118, 1658
+  xy: 1118, 1666
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 red-to-yellow6
   rotate: false
-  xy: 1152, 1724
+  xy: 1152, 1732
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 yellow-jetpack
   rotate: false
-  xy: 138, 78
+  xy: 1872, 1876
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 yellow-platform
   rotate: false
-  xy: 1084, 1492
-  size: 32, 32
-  orig: 32, 32
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
   offset: 0, 0
   index: -1
 yellow-player
   rotate: false
-  xy: 1838, 1836
-  size: 32, 64
-  orig: 32, 64
+  xy: 36, 36
+  size: 16, 16
+  orig: 16, 16
   offset: 0, 0
   index: -1
 yellow-spring
   rotate: false
-  xy: 1118, 1558
+  xy: 1906, 1942
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 yellow-to-blue1
   rotate: false
-  xy: 1872, 1902
+  xy: 1838, 1844
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 yellow-to-blue2
   rotate: false
-  xy: 1906, 1968
+  xy: 1872, 1910
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 yellow-to-blue3
   rotate: false
-  xy: 104, 46
+  xy: 1906, 1976
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 yellow-to-blue4
   rotate: false
-  xy: 1084, 1526
+  xy: 104, 54
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 yellow-to-blue5
   rotate: false
-  xy: 1118, 1592
+  xy: 1084, 1534
   size: 32, 64
   orig: 32, 64
   offset: 0, 0
   index: -1
 yellow-to-blue6
   rotate: false
-  xy: 1152, 1658
+  xy: 1118, 1600
   size: 32, 64
   orig: 32, 64
   offset: 0, 0

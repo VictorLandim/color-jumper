@@ -15,8 +15,8 @@ public abstract class MenuScreenBase extends ScreenAdapter {
     protected final ColorJumperGame game;
     protected final AssetManager assetManager;
 
-    private Viewport viewport;
-    private Stage stage;
+    protected Viewport viewport;
+    protected Stage stage;
 
     public MenuScreenBase(ColorJumperGame game) {
         this.game = game;
@@ -56,11 +56,6 @@ public abstract class MenuScreenBase extends ScreenAdapter {
     @Override
     public void resize(int width, int height) {
         viewport.update(width, height, true);
-    }
-
-    @Override
-    public void hide() {
-        dispose();
     }
 
     @Override

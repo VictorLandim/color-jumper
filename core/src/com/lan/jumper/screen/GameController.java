@@ -32,6 +32,8 @@ public class GameController {
 
     private Timer fallingTimer;
 
+    public boolean shouldGoToMenu;
+
     public GameController(ColorJumperGame game) {
         this.game = game;
         inputController = new InputController();
@@ -404,4 +406,6 @@ public class GameController {
     }
 
     public String getScore() { return Integer.toString(MathUtils.round(heightSoFar)); }
+
+    public void goToMenu() { shouldGoToMenu = true; }
 }
